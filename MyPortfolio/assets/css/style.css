@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    color: pink;
+    background-color: black;
+    padding: 20px;
+    margin: 20px;
+}
+
+#masthead {
+    border-bottom: 2px dashed pink;
+    padding: 5px;
+
+}
+
+#logo {
+    font-family: 'Monoton', cursive;
+    color: pink;
+    font-size: 50px;
+    text-decoration: none;
+    
+}
+
+nav {
+    font-size: 25px;
+    float: right;
+}
+
+nav a {
+    color: pink;
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+}
+
+.container {
+    padding: 50px;
+
+}
+
+h1 {
+    color: pink; 
+    font-size: 50px;
+    padding-bottom: 25px; 
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+
+}
+
+.auth-image {
+    width: 200px;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+    
+#connect {
+    float: left;
+    border: dotted; color: pink;
+    font-size: 20px;
+    margin: 50px;
+    margin-left: 500px;
+    
+
+}
+
+
+
+h2 {
+    padding-left:20px;
+    padding-top:10px;
+    color: pink;
+    font-family: 'Dancing Script', cursive;
+}
+
+.social {
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+p {
+    font-size: 30px;
+    padding-bottom: 30px;
+    
+}
+
+footer {
+    padding-top: 100px;
+    text-align: center;
+    color: pink;
+}
+
