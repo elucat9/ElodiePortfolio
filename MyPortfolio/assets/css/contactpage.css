@@ -1,0 +1,150 @@
+#masthead {
+    border-bottom: 2px dashed lightcoral;
+    padding: 30px;
+
+}
+
+#logo {
+    font-family: 'Dancing Script', cursive;
+    color: lightcoral;
+    font-size: 50px;
+    text-decoration: none;
+    
+}
+
+nav {
+    font-size: 25px;
+    float: right;
+}
+
+nav a {
+    color: lightcoral;
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+.auth-image {
+    height: 200px;
+    width: 200px;
+}
+
+
+#title {
+    font-family: 'Monoton', cursive;
+    color: lightcoral;
+    font-size: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+/* contact-form */
+* {
+    box-sizing: border-box;
+  }
+
+#form  {
+    margin-left: 460px;
+    color: lightcoral;
+    font-weight: bold;
+    
+}
+  
+  input[type=text], select, textarea {
+    
+    width: 25%;
+    padding: 12px;
+    border: 1px solid lightcoral;
+    border-radius: 4px;
+    resize: vertical;
+  }
+
+  #message {
+      width: 50%;
+      height: 200px;
+  }
+
+  ::placeholder {
+      color: peachpuff;
+      font-weight: bold;
+  }
+  
+ 
+  
+  input[type=submit] {
+    background-color: peachpuff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 370px;
+  }
+  
+  input[type=submit]:hover {
+    background-color: papayawhip;
+  }
+  
+  
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+
+
+
+
+
+
+
+.sidebar {
+    border: dotted; color: lightcoral;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-right: 580px;
+    margin-left: 580px;
+}
+
+#connect {
+   
+    
+    
+    font-size: 20px;
+   
+  
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+
+}
+
+.social {
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+    
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+    color: lightcoral;
+    
+}

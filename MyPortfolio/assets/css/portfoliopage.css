@@ -1,3 +1,29 @@
+#masthead {
+    border-bottom: 2px dashed lightcoral;
+    padding: 30px;
+
+}
+
+#logo {
+    font-family: 'Dancing Script', cursive;
+    color: lightcoral;
+    font-size: 50px;
+    text-decoration: none;
+    
+}
+
+nav {
+    font-size: 25px;
+    float: right;
+}
+
+nav a {
+    color: lightcoral;
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+}
+
+
 .auth-image {
     height: 200px;
     width: 200px;
@@ -6,26 +32,51 @@
 
 #title {
     font-family: 'Monoton', cursive;
-    font-size: 80px;
+    color: lightcoral;
+    font-size: 50px;
     padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;
 }
 
+a:link {
+    color: lightcoral;
+}
+
+a:hover {
+    color: peachpuff;
+}
+
+.link:hover {
+    text-decoration: none;
+    color: peachpuff;
+}
+
+
+
 .sidebar {
-    padding-top: 50px;
+    
+    float: left;
+    border: dotted; color: lightcoral;
+    font-size: 20px;
+    margin-top: 100px;
+    margin-left: 610px;
+    font-family: 'Dancing Script', cursive;
     text-align: center;
+
 }
 
 .social {
-    padding: 10px;
+    
+    padding:5px;
     width: 50px;
     height: 50px;
-    text-align: center;
+    
 }
 
 footer {
-    padding-top: 50px;
+    margin-top: 250px;
     text-align: center;
+    color: lightcoral;
     
 }
